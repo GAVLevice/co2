@@ -1,0 +1,70 @@
+@import './base.css';
+#app{
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*Banner*/
+.banner-1{
+  background-image: url("/images/co2.png");
+  width: 100%;
+  height: 40vw; /* musí mať výšku */
+  background-size: cover; /* aby sa zobrazil celý */
+  background-position-y: -7vw;
+}
+
+.headings{
+  color:white;
+  font-weight: bold;
+  font-size: 4vw;
+  line-height: 4vw;
+}
+
+.banner-heading-box{
+  display:flex;
+  width:20vw;
+  flex-direction: column;
+}
+
+.box-of-banner-heading-boxes{
+  padding: 5vw;
+  display:flex;
+  justify-content: space-between;
+}
+
+.banner-label{
+  margin:10px;
+}
+
+button{
+  color:black;
+  background-color: white;
+  border:0px;
+  border-radius: 0.5vw;
+  padding:0.8vw;
+  font-size:1.5vw;
+}button:hover{
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.356);
+}
+
+.logo-box{
+  width:5.12vw;
+  height:5.12vw;
+  margin: 0px 1vw 0px 1vw;
+}
+
+.logo-box img{
+  width:100%
+}
+.nav-bar{
+  background-color: rgb(12, 12, 12);
+  height:5.12vw;
+  display:flex;
+  align-items:center;
+}
+.nav-headings{
+  color:white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.5vw;
+  margin: 10px;
+}

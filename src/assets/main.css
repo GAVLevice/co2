@@ -4,10 +4,8 @@
 }
 /*Banner*/
 .banner-1{
-  background-image: url("/images/co2.png");
   width: 100%;
-  height: 40vw; /* musí mať výšku */
-  background-size: cover; /* aby sa zobrazil celý */
+  background-size: cover;
   background-position-y: -7vw;
 }
 
@@ -63,8 +61,65 @@ button{
 }
 .nav-headings{
   color:white;
-  text-decoration: none;
+  text-decoration: none !important;
   font-weight: bold;
   font-size: 1.5vw;
   margin: 10px;
+}
+
+.service-content{
+  margin: 4vw;
+  font-size: 1.3vw;
+  display:flex;
+  text-align: justify;
+}
+
+.service-img-box{
+  height:30vw;
+  margin-left:4vw;
+}
+.service-img-box img{
+  height:30vw;
+}
+.why-us-heading{
+  color:white;
+  font-size: 3vw;
+  text-align: center;
+  padding-top: 2vw;
+}
+.why-us{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.why-us-box{
+  color:white;
+  font-size: 1.2vw;
+  display:flex;
+  flex-direction: row;
+  margin: 1vw;
+  max-width: 30vw;
+}
+
+.why-us-box img{
+  width:48px;
+  height: 48px;
+}
+
+.footer-nav{
+  background-color: rgb(17, 17, 17);
+  color:white;
+  display:flex;
+  flex-direction: row;
+  font-size: 1.2vw;
+  height:100%;
+}
+.footer-nav-col{
+  padding: 2vw;
+  display:flex;
+  flex-direction: column;
+}
+
+.footer-nav-col a{
+  color:white;
 }

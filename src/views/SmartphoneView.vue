@@ -12,7 +12,7 @@
     ></Banner>
     <div class="smartphones">
       <<div class="smartphone-card" v-for="smartphone in smartphones">
-        <div class="smartphone-img-box"><img :src="'/images/'+smartphone.image+'.png'"></div>
+        <div class="smartphone-img-box"><img :src="import.meta.env.BASE_URL+'images/'+smartphone.image+'.png'"></div>
       <label><strong>{{ smartphone.name }}</strong></label>
       <label>{{ smartphone.price }}€</label>
       </div>

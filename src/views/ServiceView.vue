@@ -15,7 +15,7 @@
         <br><br>Vyberte si z našich balíkov podľa vašich potrieb - od základného pripojenia pre jednoduché surfovanie po vysokorýchlostný internet pre náročných používateľov. S CO2 navyše získavate jednoduchú správu služieb online a rýchlu podporu zákazníkov, ktorí vám vždy ochotne „vyfúkajú“ všetky problémy.
         <br><br>Pridajte sa k tisíckam spokojných zákazníkov a zažite internet, ktorý vám dodá energiu do každého dňa - CO2, dych čerstvého internetu priamo vo vašej domácnosti.
       </p>
-      <div class="service-img-box"><img src="/images/iphones.png"></div>
+      <div class="service-img-box"><img :src="import.meta.env.BASE_URL+'images/iphones.png'"></div>
     </div>
     <hr>
     <div class="service-content" style="color: white">

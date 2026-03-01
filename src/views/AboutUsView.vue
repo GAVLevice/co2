@@ -24,7 +24,7 @@
       <p>Transparentnosť - hovoríme veci priamo.<br>Inovácie - sledujeme nové technológie.<br>Spoľahlivosť - stabilná sieť je základ.<br>Zákazník na prvom mieste - vaša spokojnosť je pre nás priorita.<br><br><br></p>
       
       <h2>Porovnanie výkonu CO2 s konkurenciou</h2>
-      <img :src="import.meta.env.BASE_URL+'images/porovnanie.png'">
+      <img :src="baseUrl+'images/porovnanie.png'">
     </div>
 
 </template>
@@ -33,7 +33,9 @@
   import Banner from "../components/Banner.vue"
   export default{
     data(){
-
+      return{
+        baseUrl: import.meta.env.BASE_URL
+      }
     },
     components:{
       Banner

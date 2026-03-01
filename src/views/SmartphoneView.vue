@@ -12,7 +12,7 @@
     ></Banner>
     <div class="smartphones">
       <<div class="smartphone-card" v-for="smartphone in smartphones">
-        <div class="smartphone-img-box"><img :src="import.meta.env.BASE_URL+'images/'+smartphone.image+'.png'"></div>
+        <div class="smartphone-img-box"><img :src="baseUrl+'images/'+smartphone.image+'.png'"></div>
       <label><strong>{{ smartphone.name }}</strong></label>
       <label>{{ smartphone.price }}€</label>
       </div>
@@ -32,7 +32,8 @@
           { id: 5, name: "iPhone 15 Pro/Max", price: 999, image: "iphone15"},
           { id: 6, name: "iPhone 16 Pro/Max", price: 1099, image: "iphone16"},
           { id: 7, name: "iPhone 17 Pro/Max", price: 1199, image: "iphone17"}
-        ]
+        ],
+        baseUrl: import.meta.env.BASE_URL
       }
     },
     components:{

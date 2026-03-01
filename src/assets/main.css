@@ -113,6 +113,7 @@ button{
   flex-direction: row;
   font-size: 1.2vw;
   height:100%;
+  justify-content: space-evenly;
 }
 .footer-nav-col{
   padding: 2vw;
@@ -122,4 +123,28 @@ button{
 
 .footer-nav-col a{
   color:white;
+}
+
+.smartphones{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.smartphone-card{
+  background-color: rgb(34, 34, 34);
+  color:rgb(255, 255, 255);
+  display:flex;
+  flex-direction: column;
+  max-width: 40vw;
+  max-height: 33vw;
+  margin: 1vw;
+  border-radius: 1vw;
+  padding:1vw;
+  align-items: center;
+  width:30%
+}
+.smartphone-img-box, .smartphone-img-box img{
+  display: flex;
+  height:20vw;
+  width:auto;
 }

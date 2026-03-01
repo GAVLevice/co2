@@ -1,18 +1,18 @@
 <template>
-    <div class="banner-1" :style="'background-image: url(/images/banner-' + bannerid + '.png); height: '+bannerheight+';'">
+    <div class="banner-1" :style="'background-image: url(/images/banner-' + bannerid + '.png); height: '+bannerheight+'; '+bannerstyle">
         <div class="box-of-banner-heading-boxes">
             <div class="banner-heading-box">
                 <h1 class="headings">{{ leftheading }}</h1>
-                <hr>
+                <hr :style="'display: '+displaybutton+';'">
                 <label class="banner-label">{{ bannerlabel }}</label>
-                <RouterLink :to="kam"><button>{{buttonlabel}}</button></RouterLink>
+                <RouterLink :to="kam" :style="'display: '+displaybutton+';'"><button>{{buttonlabel}}</button></RouterLink>
             </div>
 
             <div class="banner-heading-box">
                 <h1 class="headings">{{ midheading }}</h1>
             </div>
 
-            <div class="banner-heading-box">
+            <div :style="'display: '+displayrightbanner+';'" class="banner-heading-box">
                 <h1 class="headings">{{ rightheading }}</h1>
             </div>
         </div>
@@ -26,7 +26,7 @@
 
         }
     },
-    props: ['bannerheight', 'bannerid', 'leftheading', 'rightheading', 'midheading', "kam", "buttonlabel", "bannerlabel"]
+    props: ['bannerstyle','displaybutton','bannerheight', 'bannerid', 'leftheading', 'rightheading', 'midheading', "kam", "buttonlabel", "bannerlabel"]
 
   }
 </script>

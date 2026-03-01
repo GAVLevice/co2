@@ -32,8 +32,8 @@
         <div class="why-us-box">
             <img src="/images/earth-custom.png">
             <div>
-                <h2>99,76 % pokrytie 5G sieťou</h2>
-                <p>Mobilný internet je pre vás dôležitý. Naše pokrytie sa neustále rozširuje - 5G využíva už 99,76 % obyvateľov a 4G LTE viac ako 99 % populácie.</p>
+                <h2>99,67 % pokrytie 6G sieťou</h2>
+                <p>Mobilný internet je pre Vás dôležitý. Naše pokrytie sa neustále rozširuje - 6G využíva už 99,67 % obyvateľov.</p>
             </div>
         </div>
 
